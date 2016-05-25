@@ -1,0 +1,19 @@
+{
+  "name": "oxid-esales/facebook-module",
+  "description": "This is the Facebook module for OXID eShop.",
+  "type": "oxideshop-module",
+  "keywords": ["oxid", "modules", "eShop"],
+  "homepage": "https://www.oxid-esales.com/en/home.html",
+  "license": [
+    "GPL-3.0",
+    "proprietary"
+  ],
+  "require" : {
+    "facebook/php-sdk-v4" : "~5.0"
+  },
+  "extra": {
+    "oxideshop": {
+      "target-directory": "oe/oefacebook"
+    }
+  }
+}
