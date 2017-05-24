@@ -14,12 +14,12 @@ This module provides an implementation of the Facebook social plugins:
 Installation
 ------------
 
-- Make a new folder "oefacebook" in the **modules/oe/** directory of your shop installation. Download https://github.com/OXID-eSales/facebook_module/archive/master.zip and unpack it into this folder. **OR**
+- Make a new folder "oefacebook" in the **modules/oe/** directory of your shop installation. Download https://github.com/OXIDprojects/facebook-social-plugins-module/archive/master.zip and unpack it into this folder. **OR**
 - Git clone the module to your OXID eShop **modules/oe/** directory:
 
   .. code:: bash
 
-     git clone https://github.com/OXID-eSales/facebook_module.git oefacebook
+     git clone https://github.com/OXIDprojects/facebook-social-plugins-module.git oefacebook
     
 - Activate the module in administration panel.
 
