@@ -91,7 +91,7 @@ class oeFacebookUser extends oeFacebookUser_parent
      */
     protected function getFacebookUserId()
     {
-        $oDb = oxDb::getDb();
+        $oDb = \OxidEsales\Eshop\Core\DatabaseProvider::getDb();
         $oFb = oxRegistry::get('oeFacebook');
         if ($oFb->isConnected() && $oFb->getUser()) {
             $sSelect = $this->formFacebookUserIdQuery($oFb);
@@ -132,7 +132,7 @@ class oeFacebookUser extends oeFacebookUser_parent
     protected function formFacebookUserIdQuery($facebookConnector)
     {
         $userSelectQuery = "oxuser." . oeFacebookEvents::FBID_COLUMN_NAME . " = " .
-                            oxDb::getDb()->quote($facebookConnector->getUser());
+                            \OxidEsales\Eshop\Core\DatabaseProvider::getDb()->quote($facebookConnector->getUser());
 
         $query = "select oxid from oxuser where oxuser.oxactive = 1 and {$userSelectQuery}";
 

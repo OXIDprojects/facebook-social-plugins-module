@@ -26,7 +26,7 @@ class oeFacebookEvents
         $parameters = array('column' => self::FBID_COLUMN_NAME);
         $query = oeFacebookEvents::getQuery('install_user.sql.tpl', $parameters);
         if (!empty($query)){
-            oxDb::getDb()->execute($query);
+            \OxidEsales\Eshop\Core\DatabaseProvider::getDb()->execute($query);
         }
     }
 
@@ -44,7 +44,7 @@ class oeFacebookEvents
         $query = oeFacebookEvents::getQuery('uninstall_user.sql.tpl', $parameters);
 
         if (!empty($query)){
-            oxDb::getDb()->execute($query);
+            \OxidEsales\Eshop\Core\DatabaseProvider::getDb()->execute($query);
         }
 
     }
@@ -65,7 +65,7 @@ class oeFacebookEvents
         $query = oeFacebookEvents::getQuery('install_content.sql.tpl', $parameters);
 
         if (!empty($query)){
-            oxDb::getDb()->execute($query);
+            \OxidEsales\Eshop\Core\DatabaseProvider::getDb()->execute($query);
         }
     }
 
@@ -80,7 +80,7 @@ class oeFacebookEvents
         $query = oeFacebookEvents::getQuery('uninstall_content.sql.tpl', $parameters);
 
         if (!empty($query)){
-            oxDb::getDb()->execute($query);
+            \OxidEsales\Eshop\Core\DatabaseProvider::getDb()->execute($query);
         }
     }
 
