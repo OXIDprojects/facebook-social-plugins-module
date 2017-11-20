@@ -13,6 +13,7 @@ class Unit_Core_oeFacebookEventsTest extends FacebookTestCase
     protected function setUp()
     {
         parent::setUp();
+        oeFacebookEvents::onDeactivate();
     }
 
     /**
@@ -30,8 +31,6 @@ class Unit_Core_oeFacebookEventsTest extends FacebookTestCase
      */
     public function testOnActivate()
     {
-        $this->removeFacebookField();
-
         oeFacebookEvents::onActivate();
 
         $DbMetaDataHandler = oxNew('OxidEsales\Eshop\Core\DbMetaDataHandler');
