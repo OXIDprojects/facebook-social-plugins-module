@@ -14,8 +14,8 @@ $aLang = array(
 'OEFACEBOOK_INVITE'                                             => 'Facebook Invite',
 'OEFACEBOOK_INVITETEXT'                                         => 'Einfach auf den Button unten klicken, um zur Empfehlung zu gelangen.',
 'OEFACEBOOK_OPEN_WEBSITE'                                       => 'Shop besuchen',
-'OEFACEBOOK_ENABLEINFOLINK'                                     => 'Informationen über die Datenübermittlung anzeigen.',
+'OEFACEBOOK_ENABLEINFOLINK'                                     => 'Informationen Ã¼ber die DatenÃ¼bermittlung anzeigen.',
 'OEFACEBOOK_ENABLELINK'                                         => 'FACEBOOK INHALTE ANZEIGEN',
-'OEFACEBOOK_ENABLETEXT'                                         => 'Es werden Daten an Facebook übermittelt.',
+'OEFACEBOOK_ENABLETEXT'                                         => 'Es werden Daten an Facebook Ã¼bermittelt.',
 'OEFACEBOOK_ENABLE_INFOTEXTHEADER'                              => 'Hinweis zum Datenschutz bei der Nutzung der Facebook Plugins',
 );
