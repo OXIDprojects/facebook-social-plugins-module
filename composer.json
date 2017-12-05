@@ -1,5 +1,5 @@
 {
-  "name": "oxid-esales/facebook-module",
+  "name": "oxid-projects/facebook-module",
   "description": "This is the Facebook module for OXID eShop.",
   "type": "oxideshop-module",
   "keywords": ["oxid", "modules", "eShop"],

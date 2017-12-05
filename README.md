@@ -21,8 +21,7 @@ In order to install the module via composer, run the following commands in comma
 (where the shop's composer.json file resides).
 
 ```
-composer config repositories.oxid-esales/facebook-module vcs https://github.com/OXIDprojects/facebook-social-plugins-module
-composer require oxid-esales/facebook-module:dev-master
+composer require oxid-projects/facebook-module
 ```
 
 ### Module installation via repository cloning
