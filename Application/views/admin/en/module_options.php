@@ -1,4 +1,3 @@
-
 <?php
 /**
  * #PHPHEADER_OEFACEBOOK_LICENSE_INFORMATION#
@@ -33,5 +32,3 @@ $aLang = array(
     'SHOP_MODULE_FACEBOOKCONNECTDISABLED' => 'Facebook connect <b>is disabled</b> as it requires cURL extension to be installed into your server. Please <a href="http://www.google.de/search?source=ig&hl=de&rlz=&=&q=install+curl+library+in+php&aq=f&aqi=&aql=&oq=&gs_rfai=">install cURL</a>.',
 
 );
-
-
