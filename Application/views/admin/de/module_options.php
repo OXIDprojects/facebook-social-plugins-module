@@ -1,4 +1,3 @@
-
 <?php
 /**
  * #PHPHEADER_OEFACEBOOK_LICENSE_INFORMATION#
@@ -30,6 +29,6 @@ $aLang = array(
     'SHOP_MODULE_oeFacebookShowConnect'       => 'Connect',
     'SHOP_MODULE_oeFacebookShowConnect_0'     => 'Deaktiviert',
     'SHOP_MODULE_oeFacebookShowConnect_1'     => 'Aktiviert',
-    'SHOP_MODULE_FACEBOOKCONNECTDISABLED'     => 'Facebook Connect <b>ist inaktiv</b>, da eine installierte cURL Library benötigt wird. Bitte <a href="http://www.google.de/search?source=ig&hl=de&rlz=&=&q=install+curl+library+in+php&aq=f&aqi=&aql=&oq=&gs_rfai=">installieren Sie cURL</a>.',
+    'SHOP_MODULE_FACEBOOKCONNECTDISABLED'     => 'Facebook Connect <b>ist inaktiv</b>, da eine installierte cURL Library benÃ¶tigt wird. Bitte <a href="http://www.google.de/search?source=ig&hl=de&rlz=&=&q=install+curl+library+in+php&aq=f&aqi=&aql=&oq=&gs_rfai=">installieren Sie cURL</a>.',
 
 );
