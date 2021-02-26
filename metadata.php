@@ -70,12 +70,12 @@ $aModule = array(
         array('group' => 'main', 'name' => 'oeFacebookConfirmEnabled', 'type' => 'bool', 'value' => '1'),
         array('group' => 'main', 'name' => 'oeFacebookAppId', 'type' => 'str', 'value' => ''),
         array('group' => 'main', 'name' => 'oeFacebooksSecretKey', 'type' => 'str', 'value' => ''),
-        array('group' => 'main', 'name' => 'oeFacebookShowConnect', 'type' => 'select',   'value' => '0', 'constrains' => '0|1', 'position' => 0),
-        array('group' => 'main', 'name' => 'oeFacebookCommentsEnabled', 'type' => 'select',   'value' => '0', 'constrains' => '0|1', 'position' => 0),
-        array('group' => 'main', 'name' => 'oeFacebookFacepileEnabled', 'type' => 'select',   'value' => '0', 'constrains' => '0|1', 'position' => 0),
-        array('group' => 'main', 'name' => 'oeFacebookInviteEnabled', 'type' => 'select',   'value' => '0', 'constrains' => '0|1', 'position' => 0),
-        array('group' => 'main', 'name' => 'oeFacebookLikeEnabled', 'type' => 'select',   'value' => '0', 'constrains' => '0|1', 'position' => 0),
-        array('group' => 'main', 'name' => 'oeFacebookShareEnabled', 'type' => 'select',   'value' => '0', 'constrains' => '0|1', 'position' => 0)
+        array('group' => 'main', 'name' => 'oeFacebookShowConnect', 'type' => 'select',   'value' => '0', 'constraints' => '0|1', 'position' => 0),
+        array('group' => 'main', 'name' => 'oeFacebookCommentsEnabled', 'type' => 'select',   'value' => '0', 'constraints' => '0|1', 'position' => 0),
+        array('group' => 'main', 'name' => 'oeFacebookFacepileEnabled', 'type' => 'select',   'value' => '0', 'constraints' => '0|1', 'position' => 0),
+        array('group' => 'main', 'name' => 'oeFacebookInviteEnabled', 'type' => 'select',   'value' => '0', 'constraints' => '0|1', 'position' => 0),
+        array('group' => 'main', 'name' => 'oeFacebookLikeEnabled', 'type' => 'select',   'value' => '0', 'constraints' => '0|1', 'position' => 0),
+        array('group' => 'main', 'name' => 'oeFacebookShareEnabled', 'type' => 'select',   'value' => '0', 'constraints' => '0|1', 'position' => 0)
     ),
     'events'       => array(
         'onActivate'   => 'oefacebookevents::onActivate',
